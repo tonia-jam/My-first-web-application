@@ -1,0 +1,80 @@
+
+.viewer {
+    width: 1080px;
+    height: 486px;
+    margin: auto;
+    display: flex;
+}
+button {
+    width: 10%;
+    background-image: url("http://stayathome-syllabus.greenfox.academy/week03/assets/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid lightgray;
+}
+.next {
+    transform: scaleX(-1);
+}
+.photo {
+    width: 80%;
+    padding: 0;
+    background-image: url(photos/csillagjazmin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.index {    
+    width: 60px;
+    height: 60px;
+    background-image: url(photos/csillagjazmin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.one {
+    background-position-x: 70%;
+}
+.two {
+    background-image: url(photos/foetida.jpg);
+    background-position-x: center;
+}
+.three {
+    background-image: url(photos/harangvirag.jpg);
+    background-position-x: right;
+}
+.four {
+    background-image: url(photos/helleborus2.jpg);
+    background-position-x: 70%;
+}
+.five {
+    background-image: url(photos/hepatica.jpg);
+    background-position-x: 60%;
+}
+.six {
+    background-image: url(photos/jazmin.jpg);
+    background-position-x: 80%;
+}
+.seven {
+    background-image: url(photos/kakukkfu.jpg);
+    background-position-x: center;
+}
+.eight {
+    background-image: url(photos/passiflora.jpg);
+    background-position-x: 20%;
+}
+.nine {
+    background-image: url(photos/pillango.jpg);
+    background-position-x: 40%;
+}
+.ten {
+    background-image: url(photos/rangpur.jpg);
+    background-position-x: 40%;
+}
