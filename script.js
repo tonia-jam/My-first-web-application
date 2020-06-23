@@ -5,3 +5,5 @@ let data = {
   };
   
   $('#picture').attr('src', data.picture);
+  $('#title').text(data.title);
+  $('#description').text(data.description);
