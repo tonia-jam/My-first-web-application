@@ -1,3 +1,4 @@
+let currentPhoto = 0;
 let data = {
     picture: 'photos/csillagjazmin.jpg',
     title: 'Trachelospermum jasminoides - Star jasmine',
