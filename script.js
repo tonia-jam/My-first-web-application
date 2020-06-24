@@ -23,6 +23,28 @@ $('#description').text(data.description); */
       {picture: 'photos/rangpur.jpg', title: 'Citrus × limonia - Rangpur', description: 'Star jasmine is a vine that produces highly fragrant, white blossoms that attract bees. A valuable perfume oil is extracted from the steam distilled or tinctured flowers and used in high end perfumery.'},
   ];
   
-$('#picture').attr('src', imagesData[currentPhoto].picture);
+/* $('#picture').attr('src', imagesData[currentPhoto].picture);
 $('#title').text(imagesData[currentPhoto].title);
-$('#description').text(imagesData[currentPhoto].description);
+$('#description').text(imagesData[currentPhoto].description); */
+
+let loadPhoto = (photoNumber) => {
+    $('#picture').attr('src', imagesData[photoNumber].picture);
+    $('#title').text(imagesData[photoNumber].title);
+    $('#description').text(imagesData[photoNumber].description);
+  }
+
+loadPhoto(currentPhoto);
+
+$('#nextp').click(() => {
+    if(currentPhoto < 9) {
+    currentPhoto++;
+    }
+    loadPhoto(currentPhoto);
+  })
+
+$('#previous').click(() => {
+    if(currentPhoto > 1) {
+    currentPhoto--;
+    }
+    loadPhoto(currentPhoto);
+  })
